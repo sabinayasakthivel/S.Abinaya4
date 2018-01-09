@@ -3,7 +3,7 @@ int main()
 {
 int year;
 printf("enter the year");
-scanf("%d",&a);
+scanf("%d",&year);
 if((year%4)==0)
 printf("leap year");
 else
