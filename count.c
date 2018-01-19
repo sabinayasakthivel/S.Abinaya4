@@ -5,7 +5,7 @@ printf("enter an integer:");
 scanf("%d",&n);
 if(n!=0)
 {
-n=n%10;
+n=n/10;
 count++;
 }
 printf("number of digits :%d",count);
