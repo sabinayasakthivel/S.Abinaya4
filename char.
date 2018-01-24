@@ -1,0 +1,12 @@
+int main(void) {
+	 char a[100],n,count=0,i;
+	 printf("enter the string");
+	 scanf("%c",&n);
+	 a[100]=n;
+	 for(i=0;i<=n;i++)
+{
+	if(n=' ')
+	count++;
+	
+}
+printf("enter the space:",count);
