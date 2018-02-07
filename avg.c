@@ -14,7 +14,7 @@ for(i=0;i<=n;i++)
 	sum=sum+a[i];
 	}
 	printf("sum is %d:",sum);
-	avg=sum/2;
+	avg=sum/n;
 	printf("%d is an average value",avg);
 	return 0;
 }
