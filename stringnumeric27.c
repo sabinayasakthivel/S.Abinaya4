@@ -2,14 +2,14 @@
 #include<string.h>
 int main()
 {
-char a[10]; int l,i,c=0;
-gets(a);
-l=strlen(a);
+char s[10]; int l,i,d=0;
+gets(s);
+l=strlen(s);
 for(i=0;i<l;i++)
 {
-if(a[i]>='0'&&a[i]<='9')
+if(s[i]>='0'&&s[i]<='9')
 {
-c++;
+d++;
 }
 else
 {
@@ -17,7 +17,7 @@ printf("\nnot numeric");
 break;
 }
 }
-if(l==c)
+if(l==d)
 {
 printf("\n numeric");
 }
