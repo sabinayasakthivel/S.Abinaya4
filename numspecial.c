@@ -21,6 +21,6 @@ else
 {
 s++;
 }}
-printf("number of special characters are:%d",b);
+printf("number of special characters are:%d",s);
 return 0;
 }
