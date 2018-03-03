@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -10,6 +11,14 @@ if((l%2)==0)
 {
 b=l/2;
 s[b]='*';
-s[b+1]='*';
+s[b-1]='*';
 puts(s);
-}}
+}
+else
+{
+b=l/2;
+s[b]='*';
+puts(s);
+}
+  return 0;
+}
