@@ -1,11 +1,12 @@
-#iclude<stdio.h>
+#include<stdio.h>
 int main()
 {
-int n,=1;
+int n,s=1,a;
+  scanf("%d",&n);
 while(n!=0)
 {
-n=n%10;
-s=s*n;
+a=n%10;
+s=s*a;
 n=n/10;
 }
 printf("%d",s);
